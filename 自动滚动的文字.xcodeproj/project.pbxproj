@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F2977C1E49AE8300CC4881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2977B1E49AE8300CC4881 /* AppDelegate.m */; };
+		84F2977F1E49AE8300CC4881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2977E1E49AE8300CC4881 /* main.m */; };
+		84F297811E49AE8300CC4881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F297801E49AE8300CC4881 /* Assets.xcassets */; };
+		84F297841E49AE8300CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297821E49AE8300CC4881 /* MainMenu.xib */; };
+		84F2978F1E49AE8300CC4881 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2978E1E49AE8300CC4881 /* _______Tests.m */; };
+		84F2979A1E49AE8300CC4881 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297991E49AE8300CC4881 /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F2978B1E49AE8300CC4881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F2976F1E49AE8300CC4881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F297761E49AE8300CC4881;
+			remoteInfo = "自动滚动的文字";
+		};
+		84F297961E49AE8300CC4881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F2976F1E49AE8300CC4881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F297761E49AE8300CC4881;
+			remoteInfo = "自动滚动的文字";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84F297771E49AE8300CC4881 /* 自动滚动的文字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自动滚动的文字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F2977A1E49AE8300CC4881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F2977B1E49AE8300CC4881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F2977E1E49AE8300CC4881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F297801E49AE8300CC4881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F297831E49AE8300CC4881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84F297851E49AE8300CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F2978A1E49AE8300CC4881 /* 自动滚动的文字Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动滚动的文字Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F2978E1E49AE8300CC4881 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		84F297901E49AE8300CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F297951E49AE8300CC4881 /* 自动滚动的文字UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动滚动的文字UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F297991E49AE8300CC4881 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		84F2979B1E49AE8300CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F297741E49AE8300CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297871E49AE8300CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297921E49AE8300CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F2976E1E49AE8300CC4881 = {
+			isa = PBXGroup;
+			children = (
+				84F297791E49AE8300CC4881 /* 自动滚动的文字 */,
+				84F2978D1E49AE8300CC4881 /* 自动滚动的文字Tests */,
+				84F297981E49AE8300CC4881 /* 自动滚动的文字UITests */,
+				84F297781E49AE8300CC4881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F297781E49AE8300CC4881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F297771E49AE8300CC4881 /* 自动滚动的文字.app */,
+				84F2978A1E49AE8300CC4881 /* 自动滚动的文字Tests.xctest */,
+				84F297951E49AE8300CC4881 /* 自动滚动的文字UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F297791E49AE8300CC4881 /* 自动滚动的文字 */ = {
+			isa = PBXGroup;
+			children = (
+				84F2977A1E49AE8300CC4881 /* AppDelegate.h */,
+				84F2977B1E49AE8300CC4881 /* AppDelegate.m */,
+				84F297801E49AE8300CC4881 /* Assets.xcassets */,
+				84F297821E49AE8300CC4881 /* MainMenu.xib */,
+				84F297851E49AE8300CC4881 /* Info.plist */,
+				84F2977D1E49AE8300CC4881 /* Supporting Files */,
+			);
+			path = "自动滚动的文字";
+			sourceTree = "<group>";
+		};
+		84F2977D1E49AE8300CC4881 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F2977E1E49AE8300CC4881 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F2978D1E49AE8300CC4881 /* 自动滚动的文字Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84F2978E1E49AE8300CC4881 /* _______Tests.m */,
+				84F297901E49AE8300CC4881 /* Info.plist */,
+			);
+			path = "自动滚动的文字Tests";
+			sourceTree = "<group>";
+		};
+		84F297981E49AE8300CC4881 /* 自动滚动的文字UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F297991E49AE8300CC4881 /* _______UITests.m */,
+				84F2979B1E49AE8300CC4881 /* Info.plist */,
+			);
+			path = "自动滚动的文字UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F297761E49AE8300CC4881 /* 自动滚动的文字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F2979E1E49AE8300CC4881 /* Build configuration list for PBXNativeTarget "自动滚动的文字" */;
+			buildPhases = (
+				84F297731E49AE8300CC4881 /* Sources */,
+				84F297741E49AE8300CC4881 /* Frameworks */,
+				84F297751E49AE8300CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自动滚动的文字";
+			productName = "自动滚动的文字";
+			productReference = 84F297771E49AE8300CC4881 /* 自动滚动的文字.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F297891E49AE8300CC4881 /* 自动滚动的文字Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F297A11E49AE8300CC4881 /* Build configuration list for PBXNativeTarget "自动滚动的文字Tests" */;
+			buildPhases = (
+				84F297861E49AE8300CC4881 /* Sources */,
+				84F297871E49AE8300CC4881 /* Frameworks */,
+				84F297881E49AE8300CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F2978C1E49AE8300CC4881 /* PBXTargetDependency */,
+			);
+			name = "自动滚动的文字Tests";
+			productName = "自动滚动的文字Tests";
+			productReference = 84F2978A1E49AE8300CC4881 /* 自动滚动的文字Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84F297941E49AE8300CC4881 /* 自动滚动的文字UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F297A41E49AE8300CC4881 /* Build configuration list for PBXNativeTarget "自动滚动的文字UITests" */;
+			buildPhases = (
+				84F297911E49AE8300CC4881 /* Sources */,
+				84F297921E49AE8300CC4881 /* Frameworks */,
+				84F297931E49AE8300CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F297971E49AE8300CC4881 /* PBXTargetDependency */,
+			);
+			name = "自动滚动的文字UITests";
+			productName = "自动滚动的文字UITests";
+			productReference = 84F297951E49AE8300CC4881 /* 自动滚动的文字UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F2976F1E49AE8300CC4881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84F297761E49AE8300CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84F297891E49AE8300CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84F297761E49AE8300CC4881;
+					};
+					84F297941E49AE8300CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84F297761E49AE8300CC4881;
+					};
+				};
+			};
+			buildConfigurationList = 84F297721E49AE8300CC4881 /* Build configuration list for PBXProject "自动滚动的文字" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F2976E1E49AE8300CC4881;
+			productRefGroup = 84F297781E49AE8300CC4881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F297761E49AE8300CC4881 /* 自动滚动的文字 */,
+				84F297891E49AE8300CC4881 /* 自动滚动的文字Tests */,
+				84F297941E49AE8300CC4881 /* 自动滚动的文字UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F297751E49AE8300CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F297811E49AE8300CC4881 /* Assets.xcassets in Resources */,
+				84F297841E49AE8300CC4881 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297881E49AE8300CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297931E49AE8300CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F297731E49AE8300CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F2977F1E49AE8300CC4881 /* main.m in Sources */,
+				84F2977C1E49AE8300CC4881 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297861E49AE8300CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F2978F1E49AE8300CC4881 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297911E49AE8300CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F2979A1E49AE8300CC4881 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F2978C1E49AE8300CC4881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F297761E49AE8300CC4881 /* 自动滚动的文字 */;
+			targetProxy = 84F2978B1E49AE8300CC4881 /* PBXContainerItemProxy */;
+		};
+		84F297971E49AE8300CC4881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F297761E49AE8300CC4881 /* 自动滚动的文字 */;
+			targetProxy = 84F297961E49AE8300CC4881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F297821E49AE8300CC4881 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F297831E49AE8300CC4881 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F2979C1E49AE8300CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84F2979D1E49AE8300CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84F2979F1E49AE8300CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动滚动的文字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aifro.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F297A01E49AE8300CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动滚动的文字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aifro.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84F297A21E49AE8300CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动滚动的文字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aifro.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动滚动的文字.app/Contents/MacOS/自动滚动的文字";
+			};
+			name = Debug;
+		};
+		84F297A31E49AE8300CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动滚动的文字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aifro.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动滚动的文字.app/Contents/MacOS/自动滚动的文字";
+			};
+			name = Release;
+		};
+		84F297A51E49AE8300CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动滚动的文字UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aifro.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自动滚动的文字";
+			};
+			name = Debug;
+		};
+		84F297A61E49AE8300CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "自动滚动的文字UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aifro.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自动滚动的文字";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F297721E49AE8300CC4881 /* Build configuration list for PBXProject "自动滚动的文字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F2979C1E49AE8300CC4881 /* Debug */,
+				84F2979D1E49AE8300CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F2979E1E49AE8300CC4881 /* Build configuration list for PBXNativeTarget "自动滚动的文字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F2979F1E49AE8300CC4881 /* Debug */,
+				84F297A01E49AE8300CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F297A11E49AE8300CC4881 /* Build configuration list for PBXNativeTarget "自动滚动的文字Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F297A21E49AE8300CC4881 /* Debug */,
+				84F297A31E49AE8300CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F297A41E49AE8300CC4881 /* Build configuration list for PBXNativeTarget "自动滚动的文字UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F297A51E49AE8300CC4881 /* Debug */,
+				84F297A61E49AE8300CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F2976F1E49AE8300CC4881 /* Project object */;
+}
