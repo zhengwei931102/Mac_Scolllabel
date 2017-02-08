@@ -10,13 +10,16 @@
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+   
+    self.wc = [[WC alloc] initWithWindowNibName:@"WC"];
+    [self.wc.window center];
+    [self.wc.window orderFront:nil];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

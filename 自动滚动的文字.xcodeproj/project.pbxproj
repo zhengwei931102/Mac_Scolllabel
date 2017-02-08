@@ -13,6 +13,9 @@
 		84F297841E49AE8300CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297821E49AE8300CC4881 /* MainMenu.xib */; };
 		84F2978F1E49AE8300CC4881 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2978E1E49AE8300CC4881 /* _______Tests.m */; };
 		84F2979A1E49AE8300CC4881 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297991E49AE8300CC4881 /* _______UITests.m */; };
+		84F297A91E49AEA700CC4881 /* MPScrollingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297A81E49AEA700CC4881 /* MPScrollingTextField.m */; };
+		84F297AD1E49AF6200CC4881 /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297AB1E49AF6200CC4881 /* WC.m */; };
+		84F297AE1E49AF6200CC4881 /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297AC1E49AF6200CC4881 /* WC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,11 @@
 		84F297951E49AE8300CC4881 /* 自动滚动的文字UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动滚动的文字UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F297991E49AE8300CC4881 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		84F2979B1E49AE8300CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F297A71E49AEA700CC4881 /* MPScrollingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPScrollingTextField.h; sourceTree = "<group>"; };
+		84F297A81E49AEA700CC4881 /* MPScrollingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPScrollingTextField.m; sourceTree = "<group>"; };
+		84F297AA1E49AF6200CC4881 /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84F297AB1E49AF6200CC4881 /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84F297AC1E49AF6200CC4881 /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +104,17 @@
 		84F297791E49AE8300CC4881 /* 自动滚动的文字 */ = {
 			isa = PBXGroup;
 			children = (
+				84F297A71E49AEA700CC4881 /* MPScrollingTextField.h */,
+				84F297A81E49AEA700CC4881 /* MPScrollingTextField.m */,
 				84F2977A1E49AE8300CC4881 /* AppDelegate.h */,
 				84F2977B1E49AE8300CC4881 /* AppDelegate.m */,
 				84F297801E49AE8300CC4881 /* Assets.xcassets */,
 				84F297821E49AE8300CC4881 /* MainMenu.xib */,
 				84F297851E49AE8300CC4881 /* Info.plist */,
 				84F2977D1E49AE8300CC4881 /* Supporting Files */,
+				84F297AA1E49AF6200CC4881 /* WC.h */,
+				84F297AB1E49AF6200CC4881 /* WC.m */,
+				84F297AC1E49AF6200CC4881 /* WC.xib */,
 			);
 			path = "自动滚动的文字";
 			sourceTree = "<group>";
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F297811E49AE8300CC4881 /* Assets.xcassets in Resources */,
+				84F297AE1E49AF6200CC4881 /* WC.xib in Resources */,
 				84F297841E49AE8300CC4881 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F297A91E49AEA700CC4881 /* MPScrollingTextField.m in Sources */,
+				84F297AD1E49AF6200CC4881 /* WC.m in Sources */,
 				84F2977F1E49AE8300CC4881 /* main.m in Sources */,
 				84F2977C1E49AE8300CC4881 /* AppDelegate.m in Sources */,
 			);

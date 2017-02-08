@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  WC.h
 //  自动滚动的文字
 //
 //  Created by admin on 17/2/7.
@@ -7,10 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "WC.h"
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-@property (nonatomic,retain) WC *wc;
-
+#import "MPScrollingTextField.h"
+@interface WC : NSWindowController
+@property (weak) IBOutlet MPScrollingTextField *lbl;
 
 @end
-
